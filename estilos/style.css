@@ -33,13 +33,6 @@ input#busca{
     padding-left: 10px;
 }
 
-/*
-img#lupa{
-    height: 4.37vh;
-    cursor: pointer;
-}
-*/
-
 i#search {
     border: 2px solid white;
     color: white;
@@ -51,6 +44,7 @@ i#search {
 
 i#menu{
     color: white;
+    cursor: pointer;
 }
 
 div#cabecalho{
@@ -94,21 +88,22 @@ div#destaques {
     font-size: 1rem;
 }
 
-div#destaques, div#recomendações{
+div#destaques{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-div#recomendações img{
-    flex-grow: 1;
-    margin-bottom: 20px;
 }
 
 div#destaques img{
     width: 90px;
     flex-shrink: 0;
     margin-bottom: 20px;
+}
+
+div#recomendações{
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 1;
 }
 
 main {
@@ -122,6 +117,7 @@ main {
 
 section{
     background-color: white;
+    height: 85vh;
 }
 
 footer {
@@ -138,4 +134,31 @@ footer p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
+}
+
+nav{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    display: none; 
+    
+}
+
+nav > a{
+    display: flex;
+    flex-flow: column nowrap;
+
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+nav > p {
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }

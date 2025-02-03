@@ -16,8 +16,16 @@
                 <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
                 <i class="material-icons" id="search">search</i>
             </div>
-            <i class="material-icons" id="menu">menu</i>
+            <i class="material-icons" id="menu" onclick="clickMenu()">menu</i>
         </header>
+        <nav id="itens">
+            <p>CATEGORIAS</p>
+            <a href="#">Carne</a>
+            <a href="#">Vegetariano</a>
+            <a href="#">Peixe</a>
+            <a href="#">Massas</a>
+            <a href="#">Bebidas</a>
+        </nav>
         <section>
             <div id="cabecalho">
                 <div id="div-logo">
@@ -33,13 +41,25 @@
             <hr>
             <h1>RECOMENDAÇÕES</h1>
             <div id="recomendações">
-                <img src="imagens/RECOMENDAÇÕES.png" alt="">
+                <img src="imagens/PIZZA-MOBILE.png" alt="">
+                <img src="imagens/TEQUILA-MOBILE.png" alt="">
+                <img src="imagens/TORTA-MOBILE.png" alt="">
+                <img src="imagens/LASANHA-MOBILE.png" alt="">
             </div>
         </section>
         <footer>
             <p>Quem somos e contato</p>
         </footer>
     </main>
+    <script>
+        function clickMenu() {
+            var itens = document.getElementById("itens");
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'block';
+            }
+        }
+    </script>
 </body>
-
 </html>
