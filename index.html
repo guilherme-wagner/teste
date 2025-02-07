@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mania de Cheff</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="buscar">
+            <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
+            <i class="material-icons" id="search">search</i>
+        </div>
+        <i class="material-icons" id="menu" onclick="clickMenu()">menu</i>
+    </header>
+
+    <nav id="itens">
+        <p>CATEGORIAS</p>
+        <a href="#">Carne</a>
+        <a href="#">Vegetariano</a>
+        <a href="#">Peixe</a>
+        <a href="#">Massas</a>
+        <a href="#">Bebidas</a>
+    </nav>
+
+    <main>
+        <section id="cabecalho">
+            <div id="div-logo">
+                <img src="imagens/logo-principal.png" alt="Logo Mania de Cheff" id="logo" class="img">
+            </div>
+        </section>
+
+        <section>
+            <h1>BEM-VINDO(A)</h1>
+            <div id="destaques">
+                <img src="imagens/mais-avaliados.png" alt="Mais avaliados" class="img">
+                <img src="imagens/mais-populares.png" alt="Mais populares" class="img">
+                <img src="imagens/melhores-bebidas.png" alt="Melhores bebidas" class="img">
+            </div>
+            <hr>
+        </section>
+
+        <section>
+            <h2>RECOMENDAÇÕES</h2>
+            <div id="recomendações">
+                <img src="imagens/PIZZA.png" alt="Pizza" class="img">
+                <img src="imagens/TEQUILA.png" alt="Tequila" class="img">
+                <img src="imagens/TORTA.png" alt="Torta" class="img">
+                <img src="imagens/LASANHA.png" alt="Lasanha" class="img">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Quem somos e contato</p>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            var itens = document.getElementById("itens");
+            itens.style.display = itens.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+
+</html>
