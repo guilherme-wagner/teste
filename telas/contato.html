@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Mania de Cheff</title>
+    <link rel="stylesheet" href="../estilos/estilo-contato.css">
+    <link rel="stylesheet" href="../estilos/estilos-comuns.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="buscar">
+            <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
+            <i class="material-icons" id="search">search</i>
+        </div>
+        <i class="material-icons" id="menu" onclick="clickMenu()">menu</i>
+    </header>
+
+    <nav id="itens">
+        <p>CATEGORIAS</p>
+        <a href="#">Carne</a>
+        <a href="#">Vegetariano</a>
+        <a href="#">Peixe</a>
+        <a href="#">Massas</a>
+        <a href="#">Bebidas</a>
+    </nav>
+
+    <main>
+        <section id="cabecalho">
+            <div id="div-logo">
+                <img src="../imagens/logo-principal.png" alt="Logo Mania de Cheff" id="logo" class="img">
+            </div>
+        </section>
+
+        <section class="section-texto">
+            <h1>QUEM SOMOS</h1>
+            <hr>
+            <div id="sobre">
+                <p class="textos">Somos dois amigos que decidimos criar um site de receitas como parte do nosso
+                    portfólio. Queríamos mostrar nossas habilidades em design e programação, criando uma interface
+                    atraente e funcional. A culinária não é a nossa paixão central, mas esta foi uma oportunidade
+                    incrível para demonstrar o que podemos fazer em um projeto real.</p>
+            </div>
+        </section>
+
+        <section class="section-texto">
+            <h1>A DUPLA</h1>
+            <hr>
+            <div id="dupla">
+                <p class="textos"><strong>Guilherme Wagner, o Desenvolvedor:</strong> Engenheiro
+                    da Computação que ao longo da graduação descobriu o "match" com a programação. Minha motivação ao
+                    trabalhar nesse projeto foi me auto desafiar e colocar na prática meus conhecimentos de HTML5 e
+                    CSS3.
+                </p>
+                <p class="textos"><strong>Jefferson Pedroso, o Designer:</strong> Como estudante em aprendizado, trabalhar no projeto do site de receitas foi desafiador e gratificante. Apesar de estar aprendendo, espero que os usuários reconheçam o esforço dedicado ao design. Cada elemento foi criado para oferecer uma experiência visual atraente, mesmo não sendo a culinária minha paixão principal. Estou ansioso por feedback para continuar melhorando e espero que o resultado final seja apreciado.</p>
+                </p>
+            </div>
+        </section>
+
+        <section class="section-texto">
+            <h1>CONTATO</h1>
+            <hr>
+            <div id="gui">
+                <img src="../imagens/foto-gui.png" alt="Foto de Guilherme, Desenvolvedor do site." id="foto-gui">
+                <div class="titulo">
+                    <h1>Guilherme Wagner:</h1>
+                    <span>Engenheiro de Computação</span>
+                </div>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/guilherme-wagner/" target="_blank">
+                        <i class="fab fa-linkedin" alt="Ícone do Linkedin" title="Acessar Linkedin"></i>
+                    </a>
+                    <a href="https://github.com/guilherme-wagner" target="_blank">
+                        <i class="fab fa-github" alt="Ícone do GitHub" title="Acessar GitHub"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="jeff">
+                <img src="../imagens/foto-jeff.png" alt="Foto de Jefferson, Designer do site." id="foto-jeff">
+                <div class="titulo">
+                    <h1>Jefferson Pedroso:</h1>
+                    <span>Designer Gráfico</span>
+                </div>
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/jeff-pedroso" target="_blank">
+                        <i class="fab fa-linkedin" alt="Ícone do Linkedin" title="Acessar Linkedin"></i>
+                    </a>
+                    <a href="https://github.com/MrJhofrey" target="_blank">
+                        <i class="fab fa-github" alt="Ícone do GitHub" title="Acessar GitHub"></i>
+                    </a>
+                    <a href="https://www.behance.net/jefferspedroso14" target="_blank">
+                        <i class="fab fa-behance" alt="Ícone do GitHub" title="Acessar Behance"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        function clickMenu() {
+            var menu = document.querySelector("nav"); // Seleciona o menu
+            menu.classList.toggle("open"); // Alterna a classe 'open'
+        }
+
+    </script>
+</body>
+
+</html>

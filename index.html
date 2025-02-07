@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mania de Cheff</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/estilo-home.css">
+    <link rel="stylesheet" href="estilos/estilos-comuns.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -61,9 +62,10 @@
 
     <script>
         function clickMenu() {
-            var itens = document.getElementById("itens");
-            itens.style.display = itens.style.display === 'block' ? 'none' : 'block';
+            var menu = document.querySelector("nav"); // Seleciona o menu
+            menu.classList.toggle("open"); // Alterna a classe 'open'
         }
+
     </script>
 </body>
 
