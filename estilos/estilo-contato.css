@@ -30,8 +30,6 @@ div#gui, div#jeff {
     flex-flow: row nowrap;
 }
 
-/* TESTE ABAIXO */
-
 img#foto-gui, img#foto-jeff {
     margin-top: 10px;
 }
@@ -45,7 +43,6 @@ div.titulo {
 
 div.titulo h1 {
     color: #5E5E5E;
-    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2em;
     font-weight: 600;
@@ -63,10 +60,17 @@ div.redes {
     align-items: center;
 }
 
-i {
+i#redes {
     font-size: 30px; /* Tamanho do ícone */
     color: #333; /* Cor do ícone */
     margin: 5px; /* Espaçamento entre os ícones */
     transition: color 0.3s ease;
 }
 
+@media screen and (max-width: 359px) {
+    div.redes {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+}
