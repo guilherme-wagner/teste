@@ -58,6 +58,8 @@ nav {
     display: none; 
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Adiciona sombra para dar destaque */
     z-index: 1000; /* Para garantir que o menu fique acima de outros elementos */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 /* Estilo dos links dentro do menu */
@@ -144,7 +146,7 @@ div#recomendações {
 }
 
 .img{
-    width: 30%;
+    width: 25vw;
     object-fit: cover;
 }
 
