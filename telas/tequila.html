@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita de Tequila</title>
+    <link rel="stylesheet" href="../estilos/estilo-recomendacoes.css"> 
+    <link rel="stylesheet" href="../estilos/estilos-comuns.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="buscar">
+            <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
+            <i class="material-icons" id="search">search</i>
+        </div>
+        <i class="material-icons" id="menu" onclick="clickMenu()">menu</i>
+    </header>
+
+    <nav id="itens">
+        <p>CATEGORIAS</p>
+        <a href="#">Carne</a>
+        <a href="#">Vegetariano</a>
+        <a href="#">Peixe</a>
+        <a href="#">Massas</a>
+        <a href="#">Bebidas</a>
+    </nav>
+
+    <main>
+        <section>
+            <section id="cabecalho">
+                <div id="div-logo">
+                    <img src="../imagens/logo-principal.png" alt="Logo Mania de Cheff" id="logo" class="img">
+                </div>
+            </section>
+
+            <section class="section-texto">
+                <h1>Margarita</h1>
+                <hr style="width: 180px;">
+                <div id="sobre">
+                    <p class="textos">A tequila é uma bebida alcoólica destilada originária do México, feita a partir da
+                        agave azul. Conhecida por sua história rica e sabor único, a tequila é uma escolha popular em
+                        cocktails e é frequentemente apreciada em festas e em eventos sociais. Se você está buscando uma
+                        maneira deliciosa de desfrutar dessa icônica bebida, experimente nossa receita de Margarita, a
+                        qual combina ingredientes autênticos e técnicas tradicionais para criar uma experiência
+                        verdadeiramente memorável.</p>
+                </div>
+            </section>
+
+            <section id="ingredientes" class="section-texto">
+                <h1 style="font-size: 1rem; margin-bottom: 10px;">INGREDIENTES</h1>
+                <ul>
+                    <li>40 ml de tequila</li>
+                    <li>20 ml de cointreau</li>
+                    <li>2 colheres de sopa de suco de limão</li>
+                    <li>Raspas de 1 limão pequeno</li>
+                    <li>Sal</li>
+                </ul>
+            </section>
+
+            <section id="modo-preparo" class="section-texto">
+                <h1 style="font-size: 1rem; margin-bottom: 10px;">MODO DE PREPARO</h1>
+                <ol>
+                    <li>
+                        Em uma coqueteleira, despeje a tequila, o cointreau, o limão espremido e o gelo.
+                    </li>
+                    <li>
+                        Feche a coqueteleira e chacoalhe bem.
+                    </li>
+                    <li>
+                        Em seguida, em um recipiente separado, rale o limão para obter as raspas (tomando cuidado
+                        para não ralar também a parte branca, que deixa o sabor amargo).
+                    </li>
+                    <li>
+                        Adicione as raspas a um pouco de sal espalhado em um prato.
+                    </li>
+                    <li>Passe o limão na borda de uma taça e emborque-a sobre o sal com as raspas de limão no prato,
+                        para aderir bem.</li>
+                    <li>Por fim, sirva a bebida na taça e aproveite!</li> <br>
+                </ol>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="contato.html">
+            <p>Quem somos e contato</p>
+        </a>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            var menu = document.querySelector("nav"); // Seleciona o menu
+            menu.classList.toggle("open"); // Alterna a classe 'open'
+        }
+    </script>
+</body>
+
+</html>

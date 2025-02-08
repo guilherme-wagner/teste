@@ -23,6 +23,7 @@ p.textos {
     font-size: 1em;
     font-weight: 400;
     margin-top: 15px;
+    padding: 0;
 }
 
 div#gui, div#jeff {
