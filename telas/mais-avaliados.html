@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Avaliados</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/estilo-destaques.css">
+    <link rel="stylesheet" href="../estilos/estilos-comuns.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="buscar">
+            <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
+            <i class="material-icons" id="search">search</i>
+        </div>
+        <i class="material-icons" id="menu" onclick="clickMenu()">menu</i>
+    </header>
+
+    <nav id="itens">
+        <p>CATEGORIAS</p>
+        <a href="#">Carne</a>
+        <a href="#">Vegetariano</a>
+        <a href="#">Peixe</a>
+        <a href="#">Massas</a>
+        <a href="#">Bebidas</a>
+    </nav>
+
+    <main>
+        <section>
+            <section id="cabecalho">
+                <div id="div-logo">
+                    <img src="../imagens/logo-principal.png" alt="Logo Mania de Cheff" id="logo" class="img">
+                </div>
+            </section>
+
+            <section class="section-texto">
+                <h1>MAIS AVALIADOS</h1>
+                <hr>
+                <h2>TOP 3</h2>
+
+            </section>
+
+            <hr>
+
+            <section class="section-texto">
+                <h1>LISTA DE AVALIADOS:</h1>
+                
+            </section>
+
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <a href="contato.html">
+            <p>Quem somos e contato</p>
+        </a>
+    </footer>
+
+    <script>
+        function clickMenu() {
+            var menu = document.querySelector("nav"); // Seleciona o menu
+            menu.classList.toggle("open"); // Alterna a classe 'open'
+        }
+    </script>
+</body>
+
+</html>
