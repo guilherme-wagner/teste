@@ -17,14 +17,6 @@ div#div-logo {
 
 }
 
-img#logo {
-    height: auto;
-    width: 120px;
-    object-fit: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 h1,
 h2 {
     margin-top: 30px;

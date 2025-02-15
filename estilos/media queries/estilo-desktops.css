@@ -5,13 +5,19 @@
   img#logo-cabecalho {
     display: none;
   }
-
 }
 
 /*Configurações em telas maiores*/
 @media screen and (min-width: 769px) {
   i#menu {
     display: none;
+  }
+
+  input#busca{
+    width: 30vw;
+    cursor: pointer;
+    border: none;
+    outline: none;
   }
 
   h1 {

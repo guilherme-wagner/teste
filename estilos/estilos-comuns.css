@@ -28,6 +28,7 @@ div#buscar {
 
 input#busca {
     height: 32px;
+    width: 35vw;
     border-radius: 10px 0px 0px 10px;
     border: none;
     padding-left: 10px;
@@ -45,8 +46,7 @@ div#div-logo {
 }
 
 img#logo {
-    height: auto;
-    width: 120px;
+    max-width: 200px;
     object-fit: cover;
     margin-top: 20px;
     margin-bottom: 20px;
