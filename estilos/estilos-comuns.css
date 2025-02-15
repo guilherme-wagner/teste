@@ -40,7 +40,7 @@ div#div-logo {
 
     background-image: url(../imagens/fundo-site.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -147,4 +147,14 @@ footer p {
 
 footer a{
     text-decoration: none;
+}
+
+#search-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o input e o ícone */
+    justify-content: center; /* Centraliza o conteúdo */
+}
+
+img#logo-cabecalho{
+    margin-left: 20px;
 }

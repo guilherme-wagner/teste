@@ -8,14 +8,18 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/estilo-home.css">
     <link rel="stylesheet" href="estilos/estilos-comuns.css">
+    <link rel="stylesheet" href="estilos/media queries/estilo-desktops.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
+        <img src="imagens/logo-cabecalho.png" alt="" id="logo-cabecalho">
         <div id="buscar">
-            <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
-            <i class="material-icons" id="search">search</i>
+            <div id="search-container">
+                <input type="text" name="busca" id="busca" placeholder="Buscar receita...">
+                <i class="material-icons" id="search">search</i>
+            </div>
         </div>
         <i class="material-icons" id="menu" onclick="clickMenu()">menu</i>
     </header>
@@ -36,7 +40,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="conteudos" id="destaques">
             <h1>BEM-VINDO(A)</h1>
             <div id="destaques">
                 <a href="telas/mais-avaliados.html"><img src="imagens/mais-avaliados.png" alt="Mais avaliados" class="img"></a>
@@ -46,7 +50,7 @@
             <hr>
         </section>
 
-        <section>
+        <section class="conteudos" id="recomendações">
             <h2>RECOMENDAÇÕES</h2>
             <div id="recomendações">
                 <a href="telas/pizza.html"><img src="imagens/PIZZA.png" alt="Pizza" class="img"></a>
