@@ -31,6 +31,7 @@ input#busca {
     width: 35vw;
     border-radius: 10px 0px 0px 10px;
     border: none;
+    outline: none;
     padding-left: 10px;
 }
 
@@ -46,7 +47,7 @@ div#div-logo {
 }
 
 img#logo {
-    max-width: 200px;
+    max-width: 100px;
     object-fit: cover;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -157,4 +158,23 @@ footer a{
 
 img#logo-cabecalho{
     margin-left: 20px;
+}
+
+#msg {
+    display: none; /* Inicialmente oculto */
+    position: fixed; /* Fixa a posição da mensagem na tela */
+    top: 0; /* Coloca no topo da tela */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Preenche toda a largura da tela */
+    height: 100%; /* Preenche toda a altura da tela */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    color: white; /* Cor do texto */
+    display: flex; /* Usando flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-size: 24px; /* Tamanho do texto */
+    z-index: 1000; /* Garante que a mensagem fique acima de outros elementos */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }

@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="estilos/estilos-comuns.css">
     <link rel="stylesheet" href="estilos/media queries/estilo-desktops.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
+    <div id="msg">O site não suporta a resolução atual de tela! Tente em uma tela com resolução menor.</div>
+    <header class="hidden">
         <img src="imagens/logo-cabecalho.png" alt="" id="logo-cabecalho">
         <div id="buscar">
             <div id="search-container">
@@ -33,7 +35,7 @@
         <a href="#">Bebidas</a>
     </nav>
 
-    <main>
+    <main class="hidden">
         <section id="cabecalho">
             <div id="div-logo">
                 <img src="imagens/logo-principal.png" alt="Logo Mania de Cheff" id="logo" class="img">
@@ -64,19 +66,13 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="hidden">
         <a href="telas/contato.html">
             <p>Quem somos e contato</p>
         </a>
     </footer>
 
-    <script>
-        function clickMenu() {
-            const menu = document.querySelector("nav"); // Seleciona o menu
-            menu.classList.toggle("open"); // Alterna a classe 'open'
-        }
-
-    </script>
+    <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
