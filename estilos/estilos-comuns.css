@@ -47,7 +47,7 @@ div#div-logo {
 }
 
 img#logo {
-    max-width: 100px;
+    max-width: 23%;
     object-fit: cover;
     margin-top: 20px;
     margin-bottom: 20px;

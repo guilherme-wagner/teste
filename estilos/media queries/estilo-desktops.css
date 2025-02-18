@@ -8,10 +8,10 @@
 }
 
 @media screen and (width: 1024px) {
-  section#recomendações {height: 60vh;}
+  section#recomendações {height: 50vh;}
 }
 
-@media screen and (width: 1440px) {
+@media screen and (width >= 1440px) {
   section#recomendações {height: 70vh;}
 }
 
@@ -30,6 +30,10 @@
 
   h1 {
     display: none;
+  }
+
+  h2{
+    font-size: 1.5em;
   }
 
 hr{
@@ -64,6 +68,9 @@ hr{
 
   body{
     background-color: lightgray;
+    background-image: url(../../imagens/fundo-site.png);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   main {
@@ -71,10 +78,6 @@ hr{
     justify-content: center;
     align-items: center;
     background-color: lightgray;
-
-    background-image: url(../../imagens/fundo-site.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
   }
 
   div#div-logo {
