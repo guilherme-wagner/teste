@@ -136,7 +136,6 @@ div#div-logo {
     background-size: cover; 
 }
 
-
 div#div-logo img{
     width: 25%;
     max-width: 250px;
@@ -152,10 +151,11 @@ div#destaques {
 
 div#destaques a{
     display: flex;
+    justify-content: center;
 }
 
 div#destaques img{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 

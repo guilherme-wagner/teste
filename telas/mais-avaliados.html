@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mais Avaliados</title>
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../estilos/estilo-destaques.css">
-    <link rel="stylesheet" href="../estilos/estilos-comuns.css">
+    <link rel="stylesheet" href="../styles/commonStyles.css">
+    <link rel="stylesheet" href="../styles/media queries/smallScreens.css">
+    <link rel="stylesheet" href="../styles/media queries/bigScreens.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
+<style>
+    img.tops, img.lista-receitas {
+        max-width: 90%;
+        height: auto;
+    }
+
+    div#lista{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#tops a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+</style>
 
 <body>
     <header>
@@ -37,7 +59,7 @@
                 </div>
             </section>
 
-            <section class="section-texto">
+            <section>
                 <h1>MAIS AVALIADOS</h1>
                 <hr>
                 <h2>TOP 3</h2>
@@ -50,12 +72,10 @@
 
             <hr>
 
-            <section class="section-texto">
+            <section>
                 <h1>LISTA DE AVALIADOS:</h1>
                 <div id="lista"><img src="../imagens/receitas.png" alt="" class="lista-receitas"></div>
             </section>
-
-
 
         </section>
 
