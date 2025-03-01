@@ -12,6 +12,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
+<style>
+    hr.sublinhado {
+        max-width: 60%;
+        margin-bottom: 30px;
+    }
+</style>
+
 <body>
     <header>
         <div id="buscar">
@@ -39,8 +46,8 @@
             </section>
 
             <section class="section-texto">
-                <h1>Pizza de Calabresa</h1>
-                <hr>
+                <h1 class="titulo-receita">Pizza de Calabresa</h1>
+                <hr class="sublinhado">
                 <div id="sobre">
                     <p class="textos">A pizza de calabresa é um clássico da culinária italiana, apreciado em todo o
                         mundo por seu sabor irresistível e combinação perfeita de ingredientes. Com sua massa crocante,
@@ -52,56 +59,60 @@
                 </div>
             </section>
 
-            <section id="ingredientes" class="section-texto">
-                <h1 style="font-size: 1rem; margin-bottom: 10px;">INGREDIENTES</h1>
-                <ul>
-                    <li>2 ovos</li>
-                    <li>1 colher de chá rasa de sal</li>
-                    <li>1 colher de chá de fermento químico em pó</li>
-                    <li>1/2 xícara de chá de óleo de soja (100 ml)</li>
-                    <li>400 ml de leite</li>
-                    <li>240 g de farinha de trigo sem fermento</li>
-                    <li>Manteiga e farinha de trigo para untar</li>
-                    <li>150 g de molho de tomate</li>
-                    <li>250 g de queijo mussarela em fatias</li>
-                    <li>1 cebola pequena</li>
-                    <li>200 g de linguiça calabresa</li>
-                    <li>Orégano a gosto</li>
-                    <li>Azeitonas pretas a gosto</li>
-                </ul>
+            <section class="section-texto">
+                <h1 style="font-size: 1rem; margin-bottom: 10px;" class="titulo-receita">INGREDIENTES</h1>
+                <div id="ingredientes">
+                    <ul>
+                        <li>2 ovos</li>
+                        <li>1 colher de chá rasa de sal</li>
+                        <li>1 colher de chá de fermento químico em pó</li>
+                        <li>1/2 xícara de chá de óleo de soja (100 ml)</li>
+                        <li>400 ml de leite</li>
+                        <li>240 g de farinha de trigo sem fermento</li>
+                        <li>Manteiga e farinha de trigo para untar</li>
+                        <li>150 g de molho de tomate</li>
+                        <li>250 g de queijo mussarela em fatias</li>
+                        <li>1 cebola pequena</li>
+                        <li>200 g de linguiça calabresa</li>
+                        <li>Orégano a gosto</li>
+                        <li>Azeitonas pretas a gosto</li>
+                    </ul>
+                </div>
             </section>
 
-            <section id="modo-preparo" class="section-texto">
-                <h1 style="font-size: 1rem; margin-bottom: 10px;">MODO DE PREPARO</h1>
-                <ol>
-                    <li>
-                        Deixe o forno preaquecendo em 180ºC a 200ºC, por pelo menos 10 minutos, e unte uma forma de
-                        pizza redonda ou uma forma de bolo redonda, com 35 cm de diâmetro.
-                    </li>
-                    <li>
-                        Retire a pele da calabresa e corte-a em rodelas finas. Corte a cebola em rodelas bem finas.
-                    </li>
-                    <li>
-                        Em um recipiente pequeno, quebre os ovos, e transfira para o copo do liquidificador.
-                        Adicione o sal, o fermento, o óleo e o leite. Bata para misturar por 30 segundos.
-                    </li>
-                    <li>
-                        Com o liquidificador ainda ligado, abra o centro da tampa e, com uma colher, acrescente a
-                        farinha de trigo aos poucos. Bata apenas até ficar lisa e homogênea.
-                    </li>
-                    <li>Transfira a massa para a forma untada e leve para pré-assar no forno preaquecido por cerca
-                        de 10 minutos, ou até ficar firme para adicionar o recheio por cima. Caso forme alguma bolha
-                        de ar na massa, apenas fure com um garfo e assente para ficar uniforme.</li>
-                    <li>Retire a massa do forno e pegue os ingredientes para rechear. Primeiro, com o auxílio de uma
-                        colher, aos poucos, adicione colheradas do molho e espalhe com as costas da colher por toda
-                        a massa.</li>
-                    <li>Depois, disponha as fatias de queijo mussarela e, por cima, as rodelas de cebola - espalhe
-                        bem para que a pizza fique completamente recheada.</li>
-                    <li>Por fim, acomode as rodelas de linguiça calabresa e disponha as azeitonas pretas. Salpique
-                        orégano e leve ao forno para finalizar, por cerca de 10 a 15 minutos ou até assar os
-                        ingredientes e derreter o queijo.</li>
-                    <li>Agora é só servir!</li> <br>
-                </ol>
+            <section class="section-texto">
+                <h1 style="font-size: 1rem; margin-bottom: 10px;" class="titulo-receita">MODO DE PREPARO</h1>
+                <div id="preparo">
+                    <ol>
+                        <li>
+                            Deixe o forno preaquecendo em 180ºC a 200ºC, por pelo menos 10 minutos, e unte uma forma de
+                            pizza redonda ou uma forma de bolo redonda, com 35 cm de diâmetro.
+                        </li>
+                        <li>
+                            Retire a pele da calabresa e corte-a em rodelas finas. Corte a cebola em rodelas bem finas.
+                        </li>
+                        <li>
+                            Em um recipiente pequeno, quebre os ovos, e transfira para o copo do liquidificador.
+                            Adicione o sal, o fermento, o óleo e o leite. Bata para misturar por 30 segundos.
+                        </li>
+                        <li>
+                            Com o liquidificador ainda ligado, abra o centro da tampa e, com uma colher, acrescente a
+                            farinha de trigo aos poucos. Bata apenas até ficar lisa e homogênea.
+                        </li>
+                        <li>Transfira a massa para a forma untada e leve para pré-assar no forno preaquecido por cerca
+                            de 10 minutos, ou até ficar firme para adicionar o recheio por cima. Caso forme alguma bolha
+                            de ar na massa, apenas fure com um garfo e assente para ficar uniforme.</li>
+                        <li>Retire a massa do forno e pegue os ingredientes para rechear. Primeiro, com o auxílio de uma
+                            colher, aos poucos, adicione colheradas do molho e espalhe com as costas da colher por toda
+                            a massa.</li>
+                        <li>Depois, disponha as fatias de queijo mussarela e, por cima, as rodelas de cebola - espalhe
+                            bem para que a pizza fique completamente recheada.</li>
+                        <li>Por fim, acomode as rodelas de linguiça calabresa e disponha as azeitonas pretas. Salpique
+                            orégano e leve ao forno para finalizar, por cerca de 10 a 15 minutos ou até assar os
+                            ingredientes e derreter o queijo.</li>
+                        <li>Agora é só servir!</li> <br>
+                    </ol>
+                </div>
             </section>
 
         </section>

@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receita de Lasanha</title>
+    <title>Receita Lasanha</title>
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../styles/commonStyles.css">
     <link rel="stylesheet" href="../styles/media queries/smallScreens.css">
     <link rel="stylesheet" href="../styles/media queries/bigScreens.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
+<style>
+    hr.sublinhado {
+        max-width: 60%;
+        margin-bottom: 30px;
+    }
+</style>
 
 <body>
     <header>
@@ -39,55 +46,64 @@
             </section>
 
             <section class="section-texto">
-                <h1>Lasanha</h1>
-                <hr style="width: 150px;">
+                <h1 class="titulo-receita">Lasanha</h1>
+                <hr class="sublinhado">
                 <div id="sobre">
-                    <p class="textos">Uma deliciosa receita de lasanha vai agradar a toda a família e pode incentivar encontros à volta da mesa repletos de risadas, conversas e sabores irresistíveis. Seja a tradicional lasanha com carne moída ou variações com presunto e queijo, abobrinha, ricota e até massa folhada, de uma coisa temos certeza: são absolutamente deliciosas. Além do sabor, essa receita pode ser preparada de diversas maneiras, sendo uma ótima opção tanto para um clássico almoço de domingo quanto para aqueles dias em que queremos um jantar farto e de alma.</p>
+                    <p class="textos">Uma deliciosa receita de lasanha vai agradar a toda a família e pode incentivar
+                        encontros à volta da mesa repletos de risadas, conversas e sabores irresistíveis. Seja a
+                        tradicional lasanha com carne moída ou variações com presunto e queijo, abobrinha, ricota e até
+                        massa folhada, de uma coisa temos certeza: são absolutamente deliciosas. Além do sabor, essa
+                        receita pode ser preparada de diversas maneiras, sendo uma ótima opção tanto para um clássico
+                        almoço de domingo quanto para aqueles dias em que queremos um jantar farto e de alma.</p>
                 </div>
             </section>
 
-            <section id="ingredientes" class="section-texto">
-                <h1 style="font-size: 1rem; margin-bottom: 10px;">INGREDIENTES</h1>
-                <ul>
-                    <li>2 colheres (sopa) de óleo</li>
-                    <li>1 cebola média picada (150 g)</li>
-                    <li>400 g de patinho bovino moído</li>
-                    <li>2 tomates médios picados (300 g)</li>
-                    <li>2 caixinhas de polpa de tomate (1040 g)</li>
-                    <li>Meia xícara (chá) de água (100 ml)</li>
-                    <li>2 sachês de Tempero SAZÓN® Laranja</li>
-                    <li>1/2 colher (chá) de sal</li>
-                    <li>1 pacote de massa de lasanha seca direto ao forno (250 g)</li>
-                    <li>200 g de presunto fatiado</li>
-                    <li>300 g de muçarela fatiada</li>
-                </ul>
+            <section class="section-texto">
+                <h1 style="font-size: 1rem; margin-bottom: 10px;" class="titulo-receita">INGREDIENTES</h1>
+                <div id="ingredientes">
+                    <ul>
+                        <li>2 colheres (sopa) de óleo</li>
+                        <li>1 cebola média picada (150 g)</li>
+                        <li>400 g de patinho bovino moído</li>
+                        <li>2 tomates médios picados (300 g)</li>
+                        <li>2 caixinhas de polpa de tomate (1040 g)</li>
+                        <li>Meia xícara (chá) de água (100 ml)</li>
+                        <li>2 sachês de Tempero SAZÓN® Laranja</li>
+                        <li>1/2 colher (chá) de sal</li>
+                        <li>1 massa de lasanha direto ao forno (250 g)</li>
+                        <li>200 g de presunto fatiado</li>
+                        <li>300 g de muçarela fatiada</li>
+                    </ul>
+                </div>
             </section>
 
-            <section id="modo-preparo" class="section-texto">
-                <h1 style="font-size: 1rem; margin-bottom: 10px;">MODO DE PREPARO</h1>
-                <ol>
-                    <li>
-                        Em uma panela grande, coloque o óleo e leve ao fogo alto para aquecer. Junte a cebola e
-                        refogue por 2 minutos. Acrescente a carne, aos poucos, e frite por 10 minutos, ou até o
-                        líquido secar. Adicione
-                        o tomate e refogue por 3 minutos, ou até que comece a desmanchar.
-                    </li>
-                    <li>
-                        Junte a polpa de tomate, a água, o Tempero SAZÓN® e o sal, e deixe cozinhar em fogo baixo,
-                        com a panela semitampada, por 5 minutos, ou até encorpar levemente. Retire do fogo.
-                    </li>
-                    <li>
-                        Em um refratário retangular grande (23 x 35 cm), faça camadas com o molho, a massa, o
-                        presunto e a mussarela, intercalando e repetindo até finalizar com o molho e a mussarela.
-                    </li>
-                    <li>
-                        Cubra com papel-alumínio e leve ao forno médio (180 graus), preaquecido, por 20 minutos, ou
-                        até que
-                        a massa fique macia. Remova o papel-alumínio e volte ao forno por mais 5 minutos, ou até
-                        dourar o queijo.
-                    </li>
-                    <li>Retire do forno e sirva em seguida.</li> <br>
-                </ol>
+            <section class="section-texto">
+                <h1 style="font-size: 1rem; margin-bottom: 10px;" class="titulo-receita">MODO DE PREPARO</h1>
+                <div id="preparo">
+                    <ol>
+                        <li>
+                            Em uma panela grande, coloque o óleo e leve ao fogo alto para aquecer. Junte a cebola e
+                            refogue por 2 minutos. Acrescente a carne, aos poucos, e frite por 10 minutos, ou até o
+                            líquido secar. Adicione
+                            o tomate e refogue por 3 minutos, ou até que comece a desmanchar.
+                        </li>
+                        <li>
+                            Junte a polpa de tomate, a água, o Tempero SAZÓN® e o sal, e deixe cozinhar em fogo baixo,
+                            com a panela semitampada, por 5 minutos, ou até encorpar levemente. Retire do fogo.
+                        </li>
+                        <li>
+                            Em um refratário retangular grande (23 x 35 cm), faça camadas com o molho, a massa, o
+                            presunto e a mussarela, intercalando e repetindo até finalizar com o molho e a mussarela.
+                        </li>
+                        <li>
+                            Cubra com papel-alumínio e leve ao forno médio (180 graus), preaquecido, por 20 minutos, ou
+                            até que
+                            a massa fique macia. Remova o papel-alumínio e volte ao forno por mais 5 minutos, ou até
+                            dourar o queijo.
+                        </li>
+                        <li>Retire do forno e sirva em seguida.</li> <br>
+                    </ol>
+                </div>
             </section>
 
         </section>

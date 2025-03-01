@@ -12,6 +12,45 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
+<style>
+    img.tops, img.lista-receitas {
+        max-width: 90%;
+        height: auto;
+    }
+
+    div#lista{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#tops a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    h1{
+        margin-bottom: 0;
+    }
+
+    h1#titulo-lista {
+        margin-bottom: 20px;
+    }
+
+    h2{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    hr.sublinhado{
+        margin-bottom: 20px;
+    }
+
+</style>
+
 <body>
     <header>
         <div id="buscar">
@@ -40,22 +79,20 @@
 
             <section class="section-texto">
                 <h1>MELHORES BEBIDAS</h1>
-                <hr>
+                <hr class="sublinhado">
                 <div id="tops">
-                    <img src="../imagens/bebida tequila.png" alt="" class="tops">
-                    <img src="../imagens/bebida cerveja.png" alt="" class="tops">
-                    <img src="../imagens/bebida soda.png" alt="" class="tops">
+                    <a href="tequila.html"><img src="../imagens/bebida tequila.png" alt="" class="tops"></a>
+                    <a href="#"><img src="../imagens/bebida cerveja.png" alt="" class="tops"></a>
+                    <a href="#"><img src="../imagens/bebida soda.png" alt="" class="tops"></a>
                 </div>
             </section>
 
-            <hr>
+            <hr id="divisao">
 
             <section class="section-texto">
-                <h1>LISTA DE BEBIDAS:</h1>
+                <h1 id="titulo-lista">LISTA DE BEBIDAS:</h1>
                 <div id="lista"><img src="../imagens/receitas.png" alt="" class="lista-receitas"></div>
             </section>
-
-
 
         </section>
 
